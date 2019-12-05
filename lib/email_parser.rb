@@ -10,10 +10,11 @@ class EmailAddressParser
   def initialize(email)
     @email = email 
   end 
-end 
+ 
 
-def parse 
-  email.split(',').join(' ')
+  def parse 
+    @email.tr(',', "").split(" ").uniq
+  end 
 end 
 
 
