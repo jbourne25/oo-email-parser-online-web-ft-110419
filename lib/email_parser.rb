@@ -9,12 +9,11 @@ class EmailAddressParser
   
   def initialize(email)
     @email = email 
-    @parse = parse 
   end 
 end 
 
 def parse 
-  @parse 
+  
 end 
 
 
