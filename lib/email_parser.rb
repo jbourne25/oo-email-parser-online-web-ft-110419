@@ -12,6 +12,10 @@ class EmailAddressParser
   end 
 end 
 
+def parse 
+  @parse 
+end 
+
 
 
 
